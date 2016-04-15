@@ -1,0 +1,27 @@
+body {
+	padding:0px;
+	margin:0px;
+	background-color: #405515;
+	font-family: 'Passion One', cursive;
+	font-size: 25px;
+}
+#title_header {
+	height: 45px;
+	background-color: black;
+	color:white;
+	margin:0px;
+}
+#title, #disclaimer {
+	text-align: center;
+	color:white;
+}
+#discalimer_footer {
+	height: 40px;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	height:600px;
+	background-color: #405515;
+}

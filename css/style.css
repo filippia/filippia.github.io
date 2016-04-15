@@ -1,0 +1,250 @@
+body {
+	padding:0px;
+	margin:0px;
+	background-color: #405515;
+	font-family: 'Passion One', cursive;
+	
+}
+#title_header {
+	height: 40px;
+	background-color: black;
+	color:white;
+	margin:0px;
+	/*padding: 5px;*/
+	padding-top: 15px;
+	font-size: 30px;
+}
+#title, #disclaimer {
+	text-align: center;
+	color:white;
+	margin: 0 auto;
+}
+#discalimer_footer {
+	height: 40px;
+	background-color: black;
+	margin: 0px;
+	padding: 5px;
+}
+.container {
+	height:550px;
+	background-color: #405515;
+	opacity: 0.4;
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+#login-div {
+	width: 50px;
+	/*margin: 0 auto;*/
+	opacity: 1.0;
+	/*position: center;*/
+	padding-top:250px;
+	/*text-align: center;*/
+	margin-left: 600px;
+	/*padding-left: 500px;*/
+}
+#name_field {
+	opacity: 1.0;
+}
+#login_button {
+	opacity: 1.0;
+	font-family: 'Passion One', cursive;
+	margin-left: 120%;
+	margin-top: 10px;
+}
+button {
+	border-radius: 5px;
+
+}
+
+/* Team page styles
+*/
+#team_main {
+	/*opacity: 0.4;*/
+	background-image: url('../images/team_background.jpg');
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#pick {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 24px;
+}
+.top_bar {
+	height: 50px;
+	margin-bottom: 50px;
+	background-color: black;
+	color: white;
+	/*position: fixed;*/
+}
+.list_item {
+	display: inline-block;
+	padding: 15px;
+	padding-left: 50px;
+
+}
+
+.list_item a{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.team_button {
+	height: 150px;
+	width: 250px;
+	display: block;
+	margin-bottom: 50px;
+	/*padding-top: 20px;*/
+	font-size: 24px;
+	font-style: bold;
+	border:none;
+}
+
+#usa_button {
+	background-image: url('../images/flags/us_flag.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#nato_button {
+	background-image: url('../images/flags/nato_flag.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#soviet_button {
+	background-image: url('../images/flags/ussr_flag.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#china_button {
+	background-image: url('../images/flags/china_flag.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#cap_div{
+	/*display: inline-block;*/
+	float: left;
+	border-right: 2px solid black;
+	margin-left: 200px;
+	padding-right: 227px;
+}
+#com_div {
+	/*display: inline-block;*/
+	float: right;
+	margin-right: 200px;
+}
+
+/*
+Units styles
+*/
+.unit_Name {
+	font-size: 18px;
+	font-weight: 800;
+	padding-bottom: 5px;
+}
+
+.unit_div img {
+	display: inline-block;
+	border: 5px black solid;
+	margin: 15px;
+}
+.unit_text {
+	display: inline-block;
+}
+.unit_desc {
+	display: inline-block;
+}
+li p {
+	padding: 2px;
+}
+
+
+/*Map screen */
+#map_div {
+	padding:none;
+	border: 2px solid black;
+	margin:none;
+	background-color: grey;
+	height:750px;
+	width: 100%;
+	position: relative;
+}
+#control_div {
+	height:150px;
+	background-color: grey;
+
+}
+
+
+.space {
+	position: absolute;
+}
+
+/***************************************************************************
+Space IDs
+***************************************************************************/
+#sz1 {
+	top:0px;
+	left: 0px;
+	height:50px;
+	width:200px;
+}
+#sz2 {
+	top: 0px;
+	left: 200px;
+	height: 55px;
+	width: 200px;
+
+}
+#bering {
+	top:50px;
+	left:0px;
+	height:50px;
+	width:200px;
+}
+
+#alaska {
+	top: 18px;
+	left: 100px;
+	z-index: 1;
+}
+
+#westCanada {
+	top: 27px;
+	left: 207px;
+	width: 50px;
+	z-index: 1;
+}
+#eastCanada {
+	height:203px;
+	width: 170px;
+	top: 14px;
+	left: 340px;
+	z-index: 1;
+}
+
+#westUS {
+	top: 185px;
+	left: 268px;
+}
+#eastUS {
+	height:105px;
+	width: 115px;
+	top:185px;
+	left: 345px;
+}
+#la_city {
+	top: 230px;
+	left: 278px;
+}
+
