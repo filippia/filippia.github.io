@@ -10,9 +10,9 @@
 		<header class="top_bar">
 			<nav>
 				<ul>
-					<li class="list_item"><a href="#">Instructions</a></li>
+					<li class="list_item"><a href="instructions.html">Instructions</a></li>
 					<li class="list_item"><a href="units.html">Units</a></li>
-					<li class="list_item"><a href="#">National Advantages</a></li>
+					<li class="list_item"><a href="nas.html">National Advantages</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -27,14 +27,22 @@
 				<img class="space" id="westUS" src="images/spaces/West U.S.png">
 				<img class="space" id="la_city" src="images/spaces/LA.png">
 				<img class="space" id="eastUS" src="images/spaces/East U.S.png">
+				<img class="space" id="westCoast" src="images/spaces/West Coast.png">
+				<img class="space" id="sz11" src="images/spaces/Sea zone11.png">
 				<!-- 
 				<img class="space" id="nyc_city" src="images/spaces/NYC.png"> -->
 			</div>
 			<div id="control_div">
-				<button>Buy Units</button>
-				<button>Move</button>
+				<button id="purchase">Buy Units</button>
+				<button id="move">Move</button>
+				<div id="screen">
+					<ul id="data">
+						
+					</ul>
+				</div>
 			</div>
 		</div>
-
+		<script src="js/jquery-2.1.4.js"></script>
+    	<script src="js/main.js"></script>
 	</body>
 </html>

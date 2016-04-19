@@ -47,12 +47,19 @@ body {
 }
 #name_field {
 	opacity: 1.0;
+	margin:10px;
 }
 #login_button {
 	opacity: 1.0;
 	font-family: 'Passion One', cursive;
-	margin-left: 120%;
-	margin-top: 10px;
+	margin-left: 135%;
+	margin-top: 30px;
+	padding: 5px;
+
+	text-decoration: none;
+	background-color: grey;
+	color:black;
+	border-radius: 5px;
 }
 button {
 	border-radius: 5px;
@@ -94,7 +101,14 @@ button {
 	text-decoration: none;
 	font-size: 24px;
 }
-
+#us_title {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin: 50px;
+	font-size: 24px;
+	font-style: bold;
+}
 .team_button {
 	height: 150px;
 	width: 250px;
@@ -104,6 +118,8 @@ button {
 	font-size: 24px;
 	font-style: bold;
 	border:none;
+	text-decoration: none;
+	text-align: center;
 }
 
 #usa_button {
@@ -111,6 +127,10 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	text-align: center;
+	text-decoration: none;
+	font-size: 104px;
+	font-style: bold;
 }
 #nato_button {
 	background-image: url('../images/flags/nato_flag.png');
@@ -153,34 +173,73 @@ Units styles
 	padding-bottom: 5px;
 }
 
+.unit_div {
+	/*height:113px;
+	width: 168px;*/
+}
+
 .unit_div img {
 	display: inline-block;
 	border: 5px black solid;
 	margin: 15px;
+
 }
+
+#infantry_image, #artillery_image, #sam_image {
+	background-color: white;
+	
+}
+#infantry_image  {
+	width: 35px;
+	height: 60px;
+	margin:40px;
+	padding:40px;
+}
+#artillery_image {
+	width: 85px;
+	height: 55px;
+	margin:40px;
+	padding:40px;
+}
+#sam_image {
+	padding: 40px;
+	width: 70px;
+	height: 55px;
+	margin:40px;
+}
+.stats_list {
+	margin-bottom: 40px;
+	display: inline-block;
+	/*padding-bottom: 40px;*/
+}
+
 .unit_text {
 	display: inline-block;
 }
-.unit_desc {
+.unit_desc p {
+	/*display: inline-block;*/
 	display: inline-block;
+	float: right;
 }
 li p {
 	padding: 2px;
 }
 
 
-/*Map screen */
+/***********************************************************************
+Map screen 
+*************************************************************************/
 #map_div {
 	padding:none;
 	border: 2px solid black;
 	margin:none;
 	background-color: grey;
-	height:750px;
+	height:730px;
 	width: 100%;
 	position: relative;
 }
 #control_div {
-	height:150px;
+	height:200px;
 	background-color: grey;
 
 }
@@ -190,6 +249,37 @@ li p {
 	position: absolute;
 }
 
+#screen {
+	width:50%;
+	border: 2px black solid;
+	background-color: white;
+	height:200px;
+	float:right;
+	border-top: none;
+	list-style-type: none;
+}
+
+ul li {
+	text-decoration: none;
+	list-style-type: none;
+
+}
+#data {
+	list-style-type: none;
+}
+#data li {
+	list-style-type: none;
+}
+#purchase {
+	margin:50px;
+	height: 40px;
+	width: 80px;
+}
+#move {
+	margin: 50px;
+	height: 40px;
+	width: 80px;
+}
 /***************************************************************************
 Space IDs
 ***************************************************************************/
@@ -222,7 +312,7 @@ Space IDs
 #westCanada {
 	top: 27px;
 	left: 207px;
-	width: 50px;
+	
 	z-index: 1;
 }
 #eastCanada {
@@ -247,4 +337,27 @@ Space IDs
 	top: 230px;
 	left: 278px;
 }
+#westCoast {
+	height:155px;
+	width:125px;
+	top:109px;
+	left:173px;
+}
 
+#sz11 {
+	top: 97px;
+	left: 0px
+	height:40px;
+	width:160px;
+}
+
+/******************************************************************
+Instruction styles
+******************************************************************/
+
+.instruction_text {
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size:24px;
+	background-color: white;
+}
