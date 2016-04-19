@@ -38,6 +38,7 @@ $(document).ready(function() {
 	 		$('#screen').append(info3);
 	 		$('#screen').append(info4);
 	 	} else if(id === 'eastUS') {
+	 		$('#data').empty();
 	 		var info = "<li><p>Resources: 35</p></li>";
 	 		var info1 = "<li>Infantry: 4</li>";
 	 		var info2 = "<li>SAM: 1</li>"
